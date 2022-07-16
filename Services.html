@@ -18,8 +18,40 @@
             <title> EKD || SERVICES</title>
       
         <style>
+            *{
+                box-sizing: border-box;
+            }
             body{
                 background-color: white;
+            }
+
+            #second_navbar{
+                height:20%;
+                box-shadow: 7px 6px 6px gray ;"
+            }
+            #itemsContainer{
+            height:80%;
+             width: 80%;
+             margin-left: 10%; margin-bottom: 5%;
+              box-shadow: 5px 5px 6px 5px gray; 
+              background-color: lightskyblue; 
+            font-size: 160%; 
+            margin-top: 1%;
+            }
+
+            @media screen and (max-width:800px){
+            #itemsContainer{
+            height:80%;
+             width: 80%;
+             margin-left: 10%; margin-bottom: 5%;
+              box-shadow: 5px 5px 6px 5px gray; 
+              background-color: lightskyblue; 
+            font-size: 130%; 
+            margin-top: 1%;
+            }
+            h3{
+                font-size: 120%;
+            }
             }
       
       </style>
@@ -57,7 +89,7 @@
             </form>
         -->
         </nav>
-        <div style=" height:20%;box-shadow: 7px 6px 6px gray ;">
+        <div id="second_navbar" >
         <h3 style="position: absolute; margin-top: 59; margin-left: 110" class="col-lg-9">
         <P id="services" ><strong> EKD IT SERVICES Renders the following services currently
             </strong>
@@ -66,7 +98,7 @@
         </div>
 
         <!-- <div class="container-fluid; row">  -->
-        <div  style="height:80%; width: 80%; margin-left: 10%; margin-bottom: 5%; box-shadow: 5px 5px 6px 5px gray; background-color: lightskyblue; font-size: 160%; margin-top: 1%;">
+        <div id="itemsContainer" >
         <list style="height: parent;">
         
             <li> Website Development</li>
