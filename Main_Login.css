@@ -53,7 +53,7 @@ input{
 
 @media screen and (max-width:800px){
     #loginPage{
-        height: 75%;
+        height: 65%;
         width: 70%;
         background-color: lightskyblue;    
         border-radius: 10px;    

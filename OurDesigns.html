@@ -23,7 +23,54 @@
   
   <!---Importing bootstrap from a cdn, content delivery network--->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+      
+    
+    <style>
+        #designs_container{
+            height: 83%; 
+            width: 90%;
+            margin-left: 5%; 
+            background-color: rgb(223, 245, 247);
+            margin-top: 5%; 
+            box-shadow: 5px 4px 4px 6px rgb(185, 182, 182);
+            margin-bottom: 4%; 
+            display: flex;
+            flex-direction: row;
+            border-style: double;
+        }
+        .images{
+            width: 32%;
+            padding: 2%;
+            box-shadow: 3px 3px 3px grey;
+        }
+
         
+        @media screen and (max-width:800px){
+            #designs_container{
+            height: 85%; 
+            width: 88%;
+            position: absolute;
+            left: 2%; 
+            top:7%;
+            right: 3%;
+            background-color: rgb(223, 245, 247);
+            
+            box-shadow: 5px 4px 4px 6px rgb(185, 182, 182);
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .images{
+            width: 85%;
+            height: 32%;
+            position: relative;
+            left: 10%;
+            
+        }
+            
+        }
+    </style>
+
     </head>
     
     
@@ -67,8 +114,10 @@
         
         </nav>
         
-    <div style=" height: 83%; width: 90%; margin-left: 5%; background-color: rgb(149, 222, 226); margin-top: 5%; box-shadow: 5px 4px 4px 6px rgb(185, 182, 182); margin-bottom: 4%; "> 
-            <h3 > This page is currently empty</h3>
+    <div id="designs_container" > 
+        <img  class="images" src="Designs/Business Card.jpg">
+        <img class="images" src="Designs/New 2.jpg">
+        <img class="images" src="Designs/happ imoji.jpg">
         </div>
     </body>
 
