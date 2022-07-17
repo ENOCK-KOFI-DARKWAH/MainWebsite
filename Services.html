@@ -71,10 +71,12 @@
                 font-size: 120%;
             }
 
-            #itemsList{
+            .flex-container{
                 display: flex;
-
                 flex-direction: row;
+            }
+            .flex-container > list{
+                padding: 8px;
             }
         }
       
@@ -123,7 +125,7 @@
 
         <!-- <div class="container-fluid; row">  -->
         <div id="itemsContainer" >
-        <list id="itemsList" style="height: parent;">
+        <list id="itemsList" class="flex-container" style="height: parent;">
         
             <li> Website Development</li>
             <li> Mobile App Development</li>
