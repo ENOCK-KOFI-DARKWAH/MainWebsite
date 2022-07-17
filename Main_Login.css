@@ -87,8 +87,8 @@ input{
 
 @media screen and (max-width:800px) and (orientation:landscape){
     #loginPage{
-        height: 75%;
-        width: 60%;
+        height: 110%;
+        width: 50%;
         background-color: lightskyblue;    
         border-radius: 10px;    
         position: absolute;
@@ -107,6 +107,9 @@ input{
     
     }
     form button{
+        display: flex;
+        flex-direction: row;
+        padding: 8px;
         margin-top: 6;
     }
 
