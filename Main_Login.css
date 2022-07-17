@@ -51,7 +51,7 @@ input{
     height: 20px;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) and (orientation:portrait){
     #loginPage{
         height: 65%;
         width: 70%;
